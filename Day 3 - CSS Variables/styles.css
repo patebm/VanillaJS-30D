@@ -1,0 +1,36 @@
+:root{
+	--base:#CBE54E;
+	--spacing:10px;
+	--blur:5px;
+}
+
+img{
+	padding:var(--spacing);
+	background:var(--base);
+	filter:blur(var(--blur));
+	width:57%;
+}
+
+.h1{
+	color:var(--base);
+	font-family:Dancing Script;	
+	text-shadow:2px 2px 2px #ababab;	
+}
+
+body{
+	background-image:linear-gradient(#3B5284,#5BABA0);
+	background-size:cover;
+	color:white;
+	text-align:center;	
+	font-family:Josefin Sans;
+	font-weight:100;
+	font-size:30px;
+}
+
+.controls{
+	margin-bottom:50px;
+}
+
+input{
+	width:100px;
+}
